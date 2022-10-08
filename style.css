@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Raleway+Dots&family=Silkscreen&family=Vollkorn&display=swap');
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+   text-align: center;
+   font-size: 60px;
+   color: #b0cff7;
+}
+#topwords{
+    padding-top: 3%;
+
+}
+
+h2{
+    font-family: 'Silkscreen', cursive;
+    text-align: center;  
+}
+.instruct{
+    font-size: 35px;
+}
+.tries{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    outline: black solid 1px;
+    color: rgb(0, 0, 0);
+    background-color: #7ba5ef;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(0, 0, 0);
+    margin-left: 4%;
+    font-family: 'Vollkorn', serif;
+}
+
+button:hover {background-color: #b0cff7}
+
+button:active {
+  background-color: #005ff8;
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(4px);
+}
+#guessField{
+    padding: 8px 15px;
+    margin: 9px;
+    box-sizing: border-box;
+    border: 3px dotted blue;
+    border-radius: 6px;
+    
+}
+form{
+    text-align: center;
+    border: 3px solid black;
+    padding: 120px;
+}
